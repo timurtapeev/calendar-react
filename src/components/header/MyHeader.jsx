@@ -16,8 +16,8 @@ const MyHeader = () => {
 
                     <div className={classes.MyHeader__input}>
                         <MyInput
+                            value=''
                             type="text"
-                            invalid
                             placeholder="Placeholder"
                         />
                     </div>
