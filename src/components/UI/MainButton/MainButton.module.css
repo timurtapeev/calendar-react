@@ -14,15 +14,15 @@
     &:hover {
         background-color: #27A1FF;
     }
+
     &:active {
         background-color: #C2E4FE;
     }
+
     &:disabled {
         background-color: #CFCFCF;
     }
-    &:focus {
-        box-shadow: 0 0 0 3px #deeeff;
-    }
+
     &:focus-visible {
         outline: #afd5fd;
         box-shadow: 0 0 0 3px #afd5fd;
