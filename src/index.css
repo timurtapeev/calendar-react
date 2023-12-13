@@ -6,8 +6,38 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.container {
+    max-width: 85%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-        monospace;
+    @media (max-width: 1200px) {
+        max-width: 90%;
+        padding: 0 70px;
+    }
+    @media (max-width: 1024px) {
+        max-width: 90%;
+        padding: 0 60px;
+    }
+    @media (max-width: 768px) {
+        max-width: 90%;
+        padding: 0 30px;
+    }
+    @media (max-width: 576px) {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    @media (max-width: 390px) {
+        max-width: 100%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+img {
+    user-select: none;
+    pointer-events: none;
 }
